@@ -1,0 +1,132 @@
+body {
+   /* цвет блока */
+   background: #000;
+   /* цвет шрифта */
+   color: #fff;
+   /* подключаем шрифты */
+   font-family: 'Montserrat', sans-serif;
+   /* обнулить по умолчанию! */
+   padding: 0;
+   margin: 0;
+}
+/* оброшение к нескальким классам 
+бордер бокс более логическае оброшение с падингам */
+div, p, a, img, form, button {
+   box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+   /* обнуление */
+   padding: 0;
+   margin: 0;
+}
+a {
+   /* у текста нет дикорацый */
+   text-decoration: none;
+}
+ul, li {
+   /* проицыруем БЛОК */
+   display: block;
+   /* обнуление */
+   padding: 0;
+   margin: 0;
+}
+.header {
+   /* цвет блока */
+   background: #000;
+   /* цвет шрифта */
+   color: white;
+   /* размер шрифта */
+   font-size: 20px;
+}
+.container {
+   /* центрврование */
+   width: 1140px;
+   margin: 0 auto;
+   /* рамка для проверки центрирования
+   border: 2px solid red;
+   height: 400px; */
+}
+.nav {
+   /* flex выравнивание элиментов в одну строку */
+   display: flex;
+   /* центрировать по вертикале */
+   align-items: center;
+   margin-top: 42px;
+
+}
+.menu {
+      /* flex выравнивание элиментов в одну строку */
+   display: flex;
+   /* отступ в лево */
+   margin-left: 160px;
+}
+.menu li {
+   /* размер текста */
+   font-size: 12px;
+   /* отступ текста в право */
+   margin-right: 25px;
+}
+/* вложения */
+.menu li a {
+   /* цвет текста ссылок */
+   color: #fff;
+   /* падинги для палок */
+   padding: 12px 0;
+}
+/* работы ховер эфекта */
+.menu li.active a,
+.menu li a:hover {
+   /* цвет текста */
+   color: #6bff3d;
+   /* подчеркивание и его цвет */
+   border-top: 1px solid #6bff3d;
+   border-bottom: 1px solid #6bff3d;
+}
+.phone {
+   /* размер шрифта */
+   font-size: 12px;
+   /* отступ в лево автоматический */
+   margin-left: auto;
+   /* анимируем ховер, тип анимации, скорость перехода */
+   transition: all 0.5s ease;
+}
+.phone:hover {
+   /* размер шрифта */
+   font-size: 20px;
+}
+.offer-content h1 {
+   /* размер шрифта */
+   font-size: 37px;
+   /* жирнасть текста */
+   font-weight: 900;
+}
+.offer-content p {
+   font-size: 16px;
+   font-weight: 200;
+   margin-top: 19px;
+}
+.offer-content a {
+   /* цвет блока */
+   background: #faf04b;
+   /* размер текста */
+   font-size: 14px;
+   /* жирнасть текста */
+   font-weight: 900;
+   /* цвет текста */
+   color: #000;
+   /* приозразуем строчный тег в блочный */
+   display: block;
+   /* длина контента (работает только на блочные теги) */
+   width: 218px;
+   /* расположили текст по центру вертикаль */
+   text-align: center;
+   /* отстут от грани блока по горизонтале 17 вертикале 0 */
+   padding: 17px 0;
+   /* анимируем ховер, тип анимации, скорость перехода */
+   transition: all 0.5s ease;
+   margin-top: 35px;
+   
+}
+.offer-content a:hover {
+   background: #eccb2e;
+}
