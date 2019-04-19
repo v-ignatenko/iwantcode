@@ -94,6 +94,15 @@ ul, li {
    /* размер шрифта */
    font-size: 20px;
 }
+.offer {
+   /* df */
+   display: flex;
+   /* aic */
+   align-items: center;
+   /* отступ от низа в верх */
+   margin-top: 106px;
+
+}
 .offer-content h1 {
    /* размер шрифта */
    font-size: 37px;
@@ -124,9 +133,30 @@ ul, li {
    padding: 17px 0;
    /* анимируем ховер, тип анимации, скорость перехода */
    transition: all 0.5s ease;
+   /* mt */
    margin-top: 35px;
    
 }
 .offer-content a:hover {
+   /* ховер эфект для блока (изминения цвета) */
    background: #eccb2e;
 }
+.triangles {
+   /* подключения картинки */
+   background: url(../img/poly.png.png);
+   /* w */
+   width: 380px;
+   /* h */
+   height: 379px;
+   /* ml */
+   margin-left: auto;
+   /* mr */
+   margin-right: 81px;
+}
+   /* псевдокласс */
+/* .activ {
+   транспортировати по осе Х
+   transform: translateX(40px);
+   плавность
+   transition: 500ms ease;
+} */
